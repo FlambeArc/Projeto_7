@@ -18,3 +18,27 @@ nav .brand-logo {
   left: 50%;
   width: 100%;
 }
+
+.custom-title{
+  position: relative;
+}
+
+.custom-title h2{
+  font-size: 25px;
+  color: #777;
+  z-index: 2;
+  display: inline-block;
+  position: relative;
+  background: white;
+  padding-right: 10px;
+}
+
+.custom-title > div{
+  width: 100%;
+  position: absolute;
+  height: 3px;
+  top: 55px;
+  left: 0;
+  background: #999;
+  z-index: 1;
+}
