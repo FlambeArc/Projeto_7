@@ -42,3 +42,16 @@ nav .brand-logo {
   background: #999;
   z-index: 1;
 }
+
+.off > div{
+  background: white;
+  z-index: 3;
+  height: 100%;
+  top: 0;
+}
+
+@media screen and (max-width:600px){
+  .off{
+    display: none;
+  }
+}
